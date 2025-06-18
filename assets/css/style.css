@@ -66,6 +66,8 @@ main {
   padding: 20px 70px;
 }
 
+
+/* SIDEBAR */
 .logo {
   padding: 20px;
   width: 250px;
@@ -86,6 +88,7 @@ main {
 
 .playlist ul {
   list-style-type: none;
+  margin-bottom: 180px;
 }
 
 .playlist li {
@@ -95,11 +98,35 @@ main {
   margin-top: 10px;
 }
 
+.sidebar-bottom {
+    padding: 30px;
+}
+
+.sidebar-bottom hr {
+    margin-top: 30px;
+    border: 2px solid;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-weight: bolder;
+}
 
 /* utility */
 
 .mr-10 {
   margin-right: 10px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+
+.pr-10 {
+  padding-right: 10px;
 }
 
 .size-50 {
