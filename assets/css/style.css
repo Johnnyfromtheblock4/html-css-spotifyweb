@@ -13,6 +13,7 @@ main {
   height: calc(100vh - 100px);
   background-color: silver;
   display: flex;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 
@@ -20,6 +21,8 @@ main {
   width: 350px;
   background-color: #000000;
   height: 100%;
+  font-size: 25px;
+  color: #6E6E6E;
 }
 
 #content {
@@ -69,19 +72,37 @@ main {
 }
 
 .sidebar-top {
-  color: white;
   padding: 30px;
   list-style-type: none;
-  font-size: 25px;
 }
 
 .sidebar-top li {
   margin-bottom: 20px;
-  
 }
+
+.playlist {
+  padding: 30px;
+}
+
+.playlist ul {
+  list-style-type: none;
+}
+
+.playlist li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
 
 /* utility */
 
 .mr-10 {
+  margin-right: 10px;
+}
+
+.size-50 {
+  font-size: 70px;
   margin-right: 10px;
 }
