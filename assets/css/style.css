@@ -34,7 +34,7 @@ main {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1900px;
   margin: 0 auto;
 }
 
@@ -46,6 +46,10 @@ main {
 
 .col-18 {
   width: calc(100% / 6 - 10px);
+}
+
+.col-100 {
+  width: 100%;
 }
 
 
@@ -99,12 +103,12 @@ main {
 }
 
 .sidebar-bottom {
-    padding: 30px;
+  padding: 30px;
 }
 
 .sidebar-bottom hr {
-    margin-top: 30px;
-    border: 2px solid;
+  margin-top: 30px;
+  border: 2px solid;
 }
 
 .user {
@@ -113,6 +117,21 @@ main {
   color: white;
   font-weight: bolder;
 }
+
+/* RECENTLY PLAYED */
+.top-menu {
+  color: #6E6E6E;
+}
+
+
+.recently-title {
+  margin-top: 30px;
+}
+
+.recently-cards {
+  margin-top: 30px;
+}
+
 
 /* utility */
 
