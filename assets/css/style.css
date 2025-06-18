@@ -3,3 +3,49 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+footer {
+  height: 100px;
+  background-color: goldenrod;
+}
+
+main {
+  height: calc(100vh - 100px);
+  background-color: silver;
+  display: flex;
+}
+
+.header {
+  height: 100px;
+  background-color: azure;
+}
+
+#sidebar {
+  width: 250px;
+  background-color: red;
+  height: 100%;
+}
+
+#content {
+  height: 100%;
+  width: calc(100vw - 250px);
+  background-color: blue;
+  color: white;
+  overflow-y: auto;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.col-18 {
+  width: calc(100% / 6 - 10px);
+
+}
