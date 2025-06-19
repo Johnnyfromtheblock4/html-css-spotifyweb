@@ -121,6 +121,8 @@ main {
   border: 2px solid white;
   border-radius: 35px;
   padding: 10px 60px;
+  margin-right: 10px;
+  transition: transform 0.3s ease;
 }
 
 /* RECENTLY PLAYED */
@@ -354,7 +356,6 @@ main {
 
 
 /* HOVER */
-
 /* hover-immagini */
 .image-container {
   position: relative;
@@ -400,6 +401,8 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
 }
 
 .image-overlay-radius {
@@ -412,11 +415,18 @@ main {
 }
 
 /* hover-button */
-
 .button:hover {
   transform: scale(1.1);
 }
 
+/* hover top-menu */
+.top-menu .col-18 {
+  transition: color 0.3s ease;
+}
+
+.top-menu .col-18:hover {
+  color: white;
+}
 
 
 
