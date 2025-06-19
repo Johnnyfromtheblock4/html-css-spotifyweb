@@ -31,6 +31,7 @@ main {
   background-color: #141922;
   color: white;
   overflow-y: auto;
+  overflow-x: auto;
 }
 
 .container {
@@ -42,6 +43,8 @@ main {
   display: flex;
   gap: 5px;
 }
+
+
 
 .col-18 {
   width: calc(100% / 6 - 5px);
@@ -77,7 +80,6 @@ main {
 }
 
 .sidebar-top {
-  padding: 30px;
   list-style-type: none;
 }
 
@@ -95,7 +97,7 @@ main {
 
 .playlist ul {
   list-style-type: none;
-  margin-bottom: 180px;
+  margin-bottom: 250px;
 }
 
 .playlist li {
@@ -128,10 +130,12 @@ main {
 }
 
 .green-line::after {
+  content: "";
   display: block;
   height: 3px;
+  width: 60px;
   background-color: #ADFF2F;
-  margin-left: 50px;
+  margin-left: 35px;
 }
 
 .container-recently {
@@ -152,6 +156,10 @@ main {
   margin-top: 30px;
 }
 
+.col-18 img {
+  width: 100%;
+}
+
 .bottom-cards {
   margin-top: 30px;
 }
@@ -170,6 +178,7 @@ main {
 .created-title {
   margin-top: 50px;
 }
+
 .created-cards {
   margin-top: 50px;
 }
@@ -184,8 +193,8 @@ main {
   margin-top: 50px;
 }
 
-.border-radius-150 {
-  border-radius: 150px;
+.border-radius-250 {
+  border-radius: 250px;
 }
 
 /* FOOTER */
@@ -244,6 +253,9 @@ footer {
   margin-top: 20px;
 }
 
+.pl-30 {
+  padding-left: 30px;
+}
 
 .pr-10 {
   padding-right: 10px;
