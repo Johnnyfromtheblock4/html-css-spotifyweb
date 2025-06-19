@@ -183,7 +183,6 @@ main {
 }
 
 /* ARTISTI PIU POPOLARI */
-
 .artist-title {
   margin-top: 50px;
 }
@@ -203,7 +202,7 @@ main {
   margin: 0 auto;
 }
 
-/* PLAYER-LEFT */
+/* player-left */
 .player-left {
   width: 20%;
   display: flex;
@@ -231,7 +230,7 @@ main {
 }
 
 
-/* PLAYER-CENTER */
+/* player-center */
 .player-center {
   width: 60%;
   align-items: center;
@@ -291,7 +290,7 @@ main {
 }
 
 
-/* PLAYER-RIGHT */
+/* player-right */
 .player-right {
   width: 20%;
   display: flex;
@@ -312,7 +311,6 @@ main {
 }
 
 /* UTILITY */
-
 .mr-10 {
   margin-right: 10px;
 }
@@ -356,6 +354,70 @@ main {
 
 
 /* HOVER */
+
+/* hover-immagini */
+.image-container {
+  position: relative;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0; 
+  transition: opacity 0.3s ease; 
+}
+
+.image-overlay {
+  color: white;
+  font-size: 100px;
+}
+
+.image-container:hover .image-overlay {
+  opacity: 1;
+}
+
+.image-overlay-radius {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 250px;
+  background-color: rgba(0, 0, 0, 0.5); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0; 
+  transition: opacity 0.3s ease; 
+}
+
+.image-overlay-radius {
+  color: white;
+  font-size: 100px;
+}
+
+.image-container:hover .image-overlay-radius {
+  opacity: 1;
+}
+
+
+
+
+
+
 
 .player-center:hover .elapsed-time {
   background-color: silver;
