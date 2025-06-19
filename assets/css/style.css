@@ -457,6 +457,25 @@ main {
   color: white;
 }
 
+/* player left hover */
+.pl-text .song-name {
+  transition: color 0.3s ease; 
+  cursor: pointer; 
+}
+
+.pl-text .song-name:hover {
+  color: white;
+}
+
+.pl-icons i {
+  transition: color 0.3s ease; 
+  cursor: pointer; 
+}
+
+.pl-icons i:hover {
+  color: white; 
+}
+
 
 
 .player-center:hover .elapsed-time {
