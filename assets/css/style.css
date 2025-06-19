@@ -290,11 +290,11 @@ main {
   right: 0;
   display: none;
   transform: translateY(-50%);
-  width: 15px;
-  height: 15px;
-  background-color: silver;
+  width: 20px;
+  height: 20px;
+  background-color: white;
   border-radius: 50%;
-  border: 1px solid black;
+  border: 1px solid white;
 }
 
 
@@ -476,12 +476,22 @@ main {
   color: white; 
 }
 
-
-
+/* player center hover */
 .player-center:hover .elapsed-time {
-  background-color: silver;
+  background-color: #ADFF2F;
 }
 
 .player-center:hover .elapsed-time .controller-point {
   display: block;
 }
+
+.pc-icons i {
+  transition: tranform 0.3s ease; 
+  cursor: pointer;
+}
+
+.pc-icons i:hover {
+  transform: scale(1.2);
+}
+
+
