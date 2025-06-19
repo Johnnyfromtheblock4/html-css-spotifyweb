@@ -133,6 +133,10 @@ main {
 }
 
 
+
+/* FOOTER */
+
+
 /* utility */
 
 .mr-10 {
@@ -151,4 +155,76 @@ main {
 .size-50 {
   font-size: 70px;
   margin-right: 10px;
+}
+
+/* trattino verde sotto
+p::after {
+content: "";
+display: block;
+height: 3px;
+background-color: #000000;
+margin-left: 50px;
+} */
+
+/* trattino sidebar 
+border-left: green */
+
+/* Footer suddiviso in 3 collonne tutte flex 
+sotto invece i contenuti in inline - block */
+
+/* struttura centrale footer
+
+*/
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+.player-controller-time {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+}
+
+.player-bar {
+  width: 90%;
+  height: 5px;
+  background-color: grey;
+  border-radius: 5px;
+  margin: 0px 10px;
+  position: relative;
+}
+
+.elapsed-time {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: silver;
+  height: 100%;
+  width: 20%;
+  border-radius: 5px;
+}
+
+.controller-point {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  display: none;
+  transform: translateY(-50%);
+  width: 15px;
+  height: 15px;
+  background-color: silver;
+  border-radius: 50%;
+  border: 1px solid black;
+
+}
+
+.player-controller-time:hover .elapsed-time {
+  background-color: green;
+}
+
+.player-controller-time:hover .elapsed-time .controller-point {
+  display: block;
 }
