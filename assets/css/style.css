@@ -163,12 +163,29 @@ main {
 
 .card-subtitle {
   text-align: center;
+  color: #6E6E6E;
 }
 
 /* CREATO PER JOHN DOE */
-
+.created-title {
+  margin-top: 50px;
+}
 .created-cards {
-  margin-top: 30px;
+  margin-top: 50px;
+}
+
+/* ARTISTI PIU POPOLARI */
+
+.artist-title {
+  margin-top: 50px;
+}
+
+.artist-cards {
+  margin-top: 50px;
+}
+
+.border-radius-150 {
+  border-radius: 150px;
 }
 
 /* FOOTER */
