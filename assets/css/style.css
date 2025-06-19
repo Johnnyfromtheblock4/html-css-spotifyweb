@@ -210,6 +210,7 @@ main {
   width: 20%;
   display: flex;
   align-items: center;
+  justify-content: flex-start;
   padding: 15px 10px;
   color: #6E6E6E;
   font-size: 20px;
@@ -235,18 +236,91 @@ main {
 /* PLAYER-CENTER */
 .player-center {
   width: 60%;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 20px;
+  padding-top: 10px;
 }
+
+.pc-icons {
+  text-align: center;
+  justify-content: center;
+  font-size: 28px;
+  padding-bottom: 10px;
+}
+
+.row-player-bottom {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.pc-bar {
+  width: 70%;
+  height: 5px;
+  background-color: grey;
+  border-radius: 5px;
+  margin: 0px 10px;
+  position: relative;
+}
+
+.player-time {
+  transform: translateY(-50%);
+}
+
+.elapsed-time {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: silver;
+  height: 100%;
+  width: 20%;
+  border-radius: 5px;
+}
+
+.controller-point {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  display: none;
+  transform: translateY(-50%);
+  width: 15px;
+  height: 15px;
+  background-color: silver;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
 
 /* PLAYER-RIGHT */
 .player-right {
   width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 15px 10px;
+  color: white;
+  font-size: 20px;
 }
 
+.pr-bar {
+  width: 50%;
+  height: 5px;
+  background-color: grey;
+  border-radius: 5px;
+  margin: 0px 10px;
+  position: relative;
+}
 
 /* utility */
 
 .mr-10 {
   margin-right: 10px;
+}
+
+.mr-20 {
+  margin-right: 20px;
 }
 
 .mt-20 {
@@ -285,10 +359,10 @@ main {
 
 /* HOVER */
 
-.player-controller-time:hover .elapsed-time {
-  background-color: green;
+.player-center:hover .elapsed-time {
+  background-color: silver;
 }
 
-.player-controller-time:hover .elapsed-time .controller-point {
+.player-center:hover .elapsed-time .controller-point {
   display: block;
 }
