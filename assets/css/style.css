@@ -55,7 +55,6 @@ main {
   width: 100%;
 }
 
-
 /* SIDEBAR */
 
 /* sidebar-top */
@@ -112,6 +111,8 @@ main {
 /* sidebar-bottom */
 .sidebar-bottom {
   margin-left: 25px;
+  transition: color 0.3s ease;
+  cursor: pointer;
 }
 
 .sidebar-bottom hr {
@@ -125,6 +126,12 @@ main {
   align-items: center;
   color: white;
   font-weight: bolder;
+}
+
+.user i {
+  font-size: 70px;
+  margin-top: 20px;
+  margin-right: 20px;
 }
 
 /* HEADER */
@@ -165,6 +172,7 @@ main {
 .container-recently {
   max-width: 1200px;
   margin: 0 auto;
+  margin-top: 20px;
 }
 
 .recently-title {
@@ -173,6 +181,7 @@ main {
 
 .recently-cards {
   margin-top: 30px;
+  margin-right: 10px;
 }
 
 .col-18 img {
