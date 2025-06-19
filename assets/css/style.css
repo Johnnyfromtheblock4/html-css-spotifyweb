@@ -204,6 +204,10 @@ main {
 }
 
 /* FOOTER */
+.container-footer {
+  width: 100%;
+  margin: 0 auto;
+}
 
 /* PLAYER-LEFT */
 .player-left {
