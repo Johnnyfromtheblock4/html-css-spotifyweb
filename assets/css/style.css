@@ -510,10 +510,20 @@ main {
 }
 
 /* player right hover */
-.player-right:hover .elapsed-time .controller-point {
+.pr-bar:hover .elapsed-time .controller-point {
   display: block;
 }
 
-.player-right:hover .elapsed-time {
+.pr-bar:hover .elapsed-time {
   background-color: #ADFF2F;
+}
+
+.pr-icons i {
+  color: #6E6E6E;
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
+
+.pr-icons i:hover {
+  color: white;
 }
