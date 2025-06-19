@@ -254,7 +254,7 @@ main {
 
 /* player-left */
 .player-left {
-  width: 20%;
+  width: calc(20% - 5px);
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -282,7 +282,7 @@ main {
 
 /* player-center */
 .player-center {
-  width: 60%;
+  width: calc(60% - 5px);
   align-items: center;
   justify-content: center;
   color: white;
@@ -343,11 +343,11 @@ main {
 
 /* player-right */
 .player-right {
-  width: 20%;
+  width: calc(20% - 5px);
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  padding: 15px 10px;
+  padding: 1px 10px;
   color: white;
   font-size: 20px;
 }
