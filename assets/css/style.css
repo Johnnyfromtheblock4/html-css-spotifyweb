@@ -96,6 +96,7 @@ main {
 
 .sidebar-bottom {
   padding: 30px;
+  cursor: pointer;
 }
 
 .sidebar-bottom hr {
@@ -445,7 +446,16 @@ main {
   color: white;
 }
 
+/* sidebar-bottom hover */
+.sidebar-bottom>i,
+.sidebar-bottom>span {
+  transition: color 0.3s ease;
+}
 
+.sidebar-bottom:hover>i,
+.sidebar-bottom:hover>span {
+  color: white;
+}
 
 
 
