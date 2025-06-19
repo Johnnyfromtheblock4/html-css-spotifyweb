@@ -7,6 +7,7 @@
 footer {
   height: 100px;
   background-color: #282828;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 main {
@@ -14,6 +15,7 @@ main {
   background-color: silver;
   display: flex;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 20px;
 }
 
 
@@ -43,7 +45,6 @@ main {
   display: flex;
   gap: 5px;
 }
-
 
 
 .col-18 {
@@ -203,49 +204,44 @@ main {
 }
 
 /* FOOTER */
-footer {
-  display: flex;
-  justify-content: center;
-}
 
-.player-controller-time {
+/* PLAYER-LEFT */
+.player-left {
+  width: 20%;
   display: flex;
   align-items: center;
-  justify-content: center;
-  width: 70%;
+  padding: 15px 10px;
+  color: #6E6E6E;
+  font-size: 20px;
 }
 
-.player-bar {
-  width: 90%;
-  height: 5px;
-  background-color: grey;
-  border-radius: 5px;
-  margin: 0px 10px;
-  position: relative;
+.pl-img {
+  padding-right: 15px;
 }
 
-.elapsed-time {
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: silver;
-  height: 100%;
+.pl-img img {
+  width: 60px;
+}
+
+.pl-text {
+  padding-right: 30px;
+}
+
+.pl-icons {
+  padding-right: 10px;
+}
+
+
+/* PLAYER-CENTER */
+.player-center {
+  width: 60%;
+}
+
+/* PLAYER-RIGHT */
+.player-right {
   width: 20%;
-  border-radius: 5px;
 }
 
-.controller-point {
-  position: absolute;
-  top: 50%;
-  right: 0;
-  display: none;
-  transform: translateY(-50%);
-  width: 15px;
-  height: 15px;
-  background-color: silver;
-  border-radius: 50%;
-  border: 1px solid black;
-}
 
 /* utility */
 
@@ -276,7 +272,10 @@ footer {
 
 .text-gray {
   color: #6E6E6E;
-  font-size: 20px;
+}
+
+.text-white {
+  color: white;
 }
 
 .bold {
@@ -284,17 +283,7 @@ footer {
 }
 
 
-/* trattino sidebar 
-border-left: green */
-
-/* Footer suddiviso in 3 collonne tutte flex 
-sotto invece i contenuti in inline - block */
-
-/* struttura centrale footer
-
-*/
-
-
+/* HOVER */
 
 .player-controller-time:hover .elapsed-time {
   background-color: green;
