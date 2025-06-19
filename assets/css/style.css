@@ -30,7 +30,7 @@ main {
 
 #content {
   height: 100%;
-  width: calc(100% - 250px);
+  width: calc(100vw - 350px);
   background-color: #141922;
   color: white;
   overflow-y: auto;
