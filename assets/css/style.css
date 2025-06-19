@@ -181,6 +181,11 @@ main {
   margin-top: 30px;
 }
 
+.recently-title p {
+  font-size: 40px;
+  font-weight: bolder;
+}
+
 .recently-cards {
   margin-top: 30px;
   margin-right: 10px;
@@ -213,6 +218,11 @@ main {
   margin-top: 50px;
 }
 
+.created-title p {
+  font-size: 40px;
+  font-weight: bolder;
+}
+
 .created-cards {
   margin-top: 50px;
 }
@@ -220,6 +230,11 @@ main {
 /* ARTISTI PIU POPOLARI */
 .artist-title {
   margin-top: 50px;
+}
+
+.artist-title p {
+  font-size: 40px;
+  font-weight: bolder;
 }
 
 .artist-cards {

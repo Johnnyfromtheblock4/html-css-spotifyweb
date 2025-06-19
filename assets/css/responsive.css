@@ -82,4 +82,46 @@
     height: 2px;
   }
 
+
+  /* recently played, creato per John Doe, artisti più popolari */
+  .recently-title,
+  .recently-cards,
+  .created-title,
+  .created-cards, .artist-title,
+  .artist-cards {
+    padding-left: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .recently-title {
+    font-size: 13px;
+  }
+
+  .recently-cards .col-18,
+  .created-cards .col-18,
+  .artist-cards .col-18 {
+    width: calc(100% / 4 - 5px);
+  }
+
+  .recently-title p,
+  .created-title p,
+  .artist-title p {
+    font-size: 20px;
+  }
+
+  .card-title {
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 8px;
+  }
+
+  .card-subtitle {
+    font-size: 13px;
+  }
+
+  .text-gray {
+    font-size: 14px;
+  }
+
 }
