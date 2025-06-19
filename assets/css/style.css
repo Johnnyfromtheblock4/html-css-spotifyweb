@@ -76,20 +76,22 @@ main {
   border-left: 3px solid #ADFF2F;
 }
 
-.playlist {
+.sidebar-middle {
   padding: 30px;
 }
 
-.playlist ul {
+.sidebar-middle ul {
   list-style-type: none;
   margin-bottom: 250px;
 }
 
-.playlist li {
+.sidebar-middle li {
   display: flex;
   align-items: center;
   margin-bottom: 20px;
   margin-top: 10px;
+  transition: color 0.3s ease;
+  cursor: pointer;
 }
 
 .sidebar-bottom {
@@ -359,7 +361,7 @@ main {
 
 
 /* HOVER */
-/* hover immagini */
+/* immagini hover */
 .image-container {
   position: relative;
   cursor: pointer;
@@ -418,12 +420,12 @@ main {
   opacity: 1;
 }
 
-/* hover button */
+/* button hover */
 .button:hover {
   transform: scale(1.1);
 }
 
-/* hover top-menu */
+/* top-menu hover */
 .top-menu .col-18 {
   transition: color 0.3s ease;
   cursor: pointer;
@@ -433,10 +435,17 @@ main {
   color: white;
 }
 
-/* hover .sidebar-top */
+/* sidebar-top hover */
 .sidebar-top li:hover {
   color: white;
 }
+
+/* sidebar-middle hover */
+.sidebar-middle li:hover {
+  color: white;
+}
+
+
 
 
 
