@@ -34,18 +34,17 @@ main {
 }
 
 .container {
-  max-width: 1900px;
+  max-width: 2300px;
   margin: 0 auto;
 }
 
 .row {
   display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
+  gap: 5px;
 }
 
 .col-18 {
-  width: calc(100% / 6 - 10px);
+  width: calc(100% / 6 - 5px);
 }
 
 .col-100 {
@@ -86,6 +85,10 @@ main {
   margin-bottom: 20px;
 }
 
+.green-bl {
+  border-left: 3px solid #ADFF2F;
+}
+
 .playlist {
   padding: 30px;
 }
@@ -121,8 +124,25 @@ main {
 /* RECENTLY PLAYED */
 .top-menu {
   color: #6E6E6E;
+  font-size: 20px;
 }
 
+.green-line::after {
+  display: block;
+  height: 3px;
+  background-color: #ADFF2F;
+  margin-left: 50px;
+}
+
+.container-recently {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.row-recently {
+  display: flex;
+  gap: 5px;
+}
 
 .recently-title {
   margin-top: 30px;
@@ -132,50 +152,26 @@ main {
   margin-top: 30px;
 }
 
+.bottom-cards {
+  margin-top: 30px;
+}
 
+.card-title {
+  text-align: center;
+  font-size: 25px;
+}
+
+.card-subtitle {
+  text-align: center;
+}
+
+/* CREATO PER JOHN DOE */
+
+.created-cards {
+  margin-top: 30px;
+}
 
 /* FOOTER */
-
-
-/* utility */
-
-.mr-10 {
-  margin-right: 10px;
-}
-
-.mt-20 {
-  margin-top: 20px;
-}
-
-
-.pr-10 {
-  padding-right: 10px;
-}
-
-.size-50 {
-  font-size: 70px;
-  margin-right: 10px;
-}
-
-/* trattino verde sotto
-p::after {
-content: "";
-display: block;
-height: 3px;
-background-color: #000000;
-margin-left: 50px;
-} */
-
-/* trattino sidebar 
-border-left: green */
-
-/* Footer suddiviso in 3 collonne tutte flex 
-sotto invece i contenuti in inline - block */
-
-/* struttura centrale footer
-
-*/
-
 footer {
   display: flex;
   justify-content: center;
@@ -220,6 +216,48 @@ footer {
   border: 1px solid black;
 
 }
+
+/* utility */
+
+.mr-10 {
+  margin-right: 10px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+
+.pr-10 {
+  padding-right: 10px;
+}
+
+.size-70 {
+  font-size: 70px;
+  margin-right: 10px;
+}
+
+.size-40 {
+  font-size: 40px;
+}
+
+.text-gray {
+  color: #6E6E6E;
+  font-size: 20px;
+}
+
+
+/* trattino sidebar 
+border-left: green */
+
+/* Footer suddiviso in 3 collonne tutte flex 
+sotto invece i contenuti in inline - block */
+
+/* struttura centrale footer
+
+*/
+
+
 
 .player-controller-time:hover .elapsed-time {
   background-color: green;

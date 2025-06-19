@@ -17,14 +17,14 @@
     <div id="sidebar">
       <img src="assets/img/logo.svg" alt="" class="logo">
       <ul class="sidebar-top">
-        <li><i class="fa-solid fa-house mr-10"></i>Home</li>
+        <li class="green-bl"><i class="fa-solid fa-house mr-10"></i>Home</li>
         <li><i class="fa-solid fa-magnifying-glass mr-10"></i>Cerca</li>
         <li><i class="fa-solid fa-bars mr-10"></i>La tua libreria</li>
       </ul>
       <div class="playlist">
         <h4>PLAYLIST</h4>
         <ul>
-          <li><i class="fa-solid fa-square-plus size-50"></i>
+          <li><i class="fa-solid fa-square-plus size-70"></i>
             Crea Playlist</li>
           <li>Nome Playlist</li>
           <li>Nome Playlist</li>
@@ -40,7 +40,7 @@
         <span>Installa app</span>
         <hr>
         <div class="user">
-          <i class="fa-solid fa-circle-user size-50 mt-20 pr-10"></i>
+          <i class="fa-solid fa-circle-user size-70 mt-20 pr-10"></i>
           <span class="mt-20">John Doe</span>
         </div>
       </div>
@@ -48,6 +48,7 @@
     <!-- FINE SIDEBAR -->
 
     <div id="content">
+      <!-- CONTENT -->
       <!-- HEADER -->
       <div class="header">
         <div class="button">
@@ -58,9 +59,11 @@
 
       <!-- RECENTLY PLAYED -->
       <div class="top-menu">
-        <div class="container">
-          <div class="row">
-            <div class="col-18 mt-20">IN EVIDENZA</div>
+        <div class="container-recently">
+          <div class="row-recently">
+            <div class="col-18 mt-20">
+              <p class="green-line">IN EVIDENZA</p>
+            </div>
             <div class="col-18 mt-20">PODCAST</div>
             <div class="col-18 mt-20">CLASSIFICHE</div>
             <div class="col-18 mt-20">GENERI E MOOD</div>
@@ -74,7 +77,7 @@
         <div class="container">
           <div class="row">
             <div class="col-100">
-              <h1 class="recently-title">Recently played</h1>
+              <h1 class="size-40">Recently played</h1>
             </div>
           </div>
         </div>
@@ -83,18 +86,88 @@
       <div class="recently-cards">
         <div class="container">
           <div class="row">
-            <div class="col-18"><img src="assets/img/metal_lifting.jpg" alt=""></div>
-            <div class="col-18"><img src="assets/img/stranger.jpeg" alt=""></div>
-            <div class="col-18"><img src="assets/img/aquietplace.jpeg" alt=""></div>
-            <div class="col-18"><img src="assets/img/split.jpeg" alt=""></div>
-            <div class="col-18"><img src="assets/img/cure.jpeg" alt=""></div>
-            <div class="col-18"><img src="assets/img/sinister.jpeg" alt=""></div>
+            <div class="col-18"><img src="assets/img/metal_lifting.jpg" alt="">
+              <p class="card-title">Heavy Metal</p>
+              <p class="card-subtitle">Subtitle</p>
+            </div>
+            <div class="col-18"><img src="assets/img/stranger.jpeg" alt="">
+              <p class="card-title">Stanger Things Vol.1 (a Netflix Original Series Soundtrack)</p>
+              <p class="card-subtitle">Kyle Dixon & Michael Stein</p>
+            </div>
+            <div class="col-18"><img src="assets/img/aquietplace.jpeg" alt="">
+              <p class="card-title">A quiet place</p>
+              <p class="card-subtitle">Subtitle</p>
+            </div>
+            <div class="col-18"><img src="assets/img/split.jpeg" alt="">
+              <p class="card-title">Split</p>
+              <p class="card-subtitle">Subtitle</p>
+            </div>
+            <div class="col-18"><img src="assets/img/cure.jpeg" alt="">
+              <p class="card-title">A cure fot wellness</p>
+              <p class="card-subtitle">Subtitle</p>
+            </div>
+            <div class="col-18"><img src="assets/img/sinister.jpeg" alt="">
+              <p class="card-title">Sinister</p>
+              <p class="card-subtitle">Subtitle</p>
+            </div>
           </div>
         </div>
       </div>
-      <!-- RECENTLY PLAYED -->
 
+      <div class="bottom-cards">
+        <div class="container">
+          <div class="row">
+            <div class="col-18">
+              <p class="card-title">Heavy Metal</p>
+              <p class="card-subtitle">Subtitle</p>
+            </div>
+            <div class="col-18">
+              <p class="card-title">Stanger Things Vol.1 (a Netflix Original Series Soundtrack)</p>
+              <p class="card-subtitle">Kyle Dixon & Michael Stein</p>
+            </div>
+            <div class="col-18">
+              <p class="card-title">A quiet place</p>
+              <p class="card-subtitle">Subtitle</p>
+            </div>
+            <div class="col-18">
+              <p class="card-title">Split</p>
+              <p class="card-subtitle">Subtitle</p>
+            </div>
+            <div class="col-18">
+              <p class="card-title">A cure fot wellness</p>
+              <p class="card-subtitle">Subtitle</p>
+            </div>
+            <div class="col-18">
+              <p class="card-title">Sinister</p>
+              <p class="card-subtitle">Subtitle</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- FINE RECENTLY PLAYED -->
+      <!-- CREATO PER JOHN DOE -->
+      <div class="jd-title">
+        <div class="container">
+          <div class="row">
+            <div class="col-100">
+              <h1 class="mt-20 size-40">Creato per John Doe</h1>
+              <span class="text-gray">Più ascolti, più accurati saranno i suggerimenti</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="created-cards">
+        <div class="container">
+          <div class="row">
+            <div class="col 18"><img src="assets/img/radar.jpeg" alt=""></div>
+            <div class="col 18"><img src="assets/img/mixdaily.jpeg" alt=""></div>
+          </div>
+        </div>
+      </div>
+      <!-- FINE CREATO PER JOHN DOE -->
     </div>
+    <!-- FINE CONTENT -->
   </main>
   <footer>
     <div class="player-controller-time">
