@@ -57,12 +57,14 @@ main {
 
 
 /* SIDEBAR */
+
+/* sidebar-top */
 .sidebar-top {
-  height: 90%;
+  height: 88%;
 }
 
 .sidebar-bottom {
-  height: 10%;
+  height: 12%;
 }
 
 .logo {
@@ -70,7 +72,7 @@ main {
   width: 250px;
 }
 
-.sidebar-top ul{
+.sidebar-top ul {
   list-style-type: none;
 }
 
@@ -78,11 +80,51 @@ main {
   margin-bottom: 20px;
   transition: color 0.3s ease;
   cursor: pointer;
-  margin-left: 25px;
+  padding-left: 25px;
+}
+
+.sidebar-top i {
+  padding-right: 10px;
 }
 
 .playlist-title {
   margin-left: 25px;
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.green-bl {
+  border-left: 3px solid #ADFF2F;
+}
+
+.crea-playlist {
+  display: flex;
+  align-items: center; 
+  margin-bottom: 20px;
+}
+
+.crea-playlist i {
+  font-size: 70px;
+  padding-right: 10px; 
+}
+
+/* sidebar-bottom */
+.sidebar-bottom {
+  margin-left: 25px;
+}
+
+.sidebar-bottom hr {
+  margin-top: 10px;
+  margin-right: 25px;
+  border: 2px solid;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-weight: bolder;
 }
 
 /* HEADER */
@@ -435,8 +477,8 @@ main {
 
 /* player left hover */
 .pl-text .song-name {
-  transition: color 0.3s ease; 
-  cursor: pointer; 
+  transition: color 0.3s ease;
+  cursor: pointer;
 }
 
 .pl-text .song-name:hover {
@@ -444,12 +486,12 @@ main {
 }
 
 .pl-icons i {
-  transition: color 0.3s ease; 
-  cursor: pointer; 
+  transition: color 0.3s ease;
+  cursor: pointer;
 }
 
 .pl-icons i:hover {
-  color: white; 
+  color: white;
 }
 
 /* player center hover */
@@ -462,7 +504,7 @@ main {
 }
 
 .pc-icons i {
-  transition: tranform 0.3s ease; 
+  transition: tranform 0.3s ease;
   cursor: pointer;
 }
 
