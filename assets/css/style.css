@@ -68,6 +68,8 @@ main {
 
 .sidebar-top li {
   margin-bottom: 20px;
+  transition: color 0.3s ease;
+  cursor: pointer;
 }
 
 .green-bl {
@@ -123,6 +125,7 @@ main {
   padding: 10px 60px;
   margin-right: 10px;
   transition: transform 0.3s ease;
+  cursor: pointer;
 }
 
 /* RECENTLY PLAYED */
@@ -356,9 +359,10 @@ main {
 
 
 /* HOVER */
-/* hover-immagini */
+/* hover immagini */
 .image-container {
   position: relative;
+  cursor: pointer;
 }
 
 .image-container img {
@@ -414,7 +418,7 @@ main {
   opacity: 1;
 }
 
-/* hover-button */
+/* hover button */
 .button:hover {
   transform: scale(1.1);
 }
@@ -422,12 +426,17 @@ main {
 /* hover top-menu */
 .top-menu .col-18 {
   transition: color 0.3s ease;
+  cursor: pointer;
 }
 
 .top-menu .col-18:hover {
   color: white;
 }
 
+/* hover .sidebar-top */
+.sidebar-top li:hover {
+  color: white;
+}
 
 
 
