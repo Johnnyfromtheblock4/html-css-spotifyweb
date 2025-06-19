@@ -1,8 +1,47 @@
 /* SPOTIFY-MD */
-@media screen and (max-width:878px) {
+@media screen and (max-width: 878px) {
+  /* sidebar */
+  #sidebar {
+    width: 25%; 
+    font-size: 15px;
+  }
 
-}
+  .sidebar-top .logo {
+    width: 150px;
+    padding: 15px;
+  }
 
-/* SPOTIFY-S */
+  .sidebar-top li {
+    margin-bottom: 15px;
+    padding-left: 15px;
+  }
 
-/* SPOTIFY-XS */
+  .sidebar-top i {
+    padding-right: 8px;
+  }
+
+  .playlist-title {
+    margin-left: 15px;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .crea-playlist i {
+    font-size: 35px; 
+  }
+
+  .sidebar-bottom {
+    margin-left: 15px;
+    margin-top: 25px;
+  }
+
+  .sidebar-bottom hr {
+    margin-right: 15px;
+  }
+
+  .user i {
+    font-size: 35px;
+    margin-top: 15px;
+    margin-right: 15px;
+  }
