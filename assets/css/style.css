@@ -167,11 +167,15 @@ main {
 .card-title {
   text-align: center;
   font-size: 25px;
+  font-weight: bolder;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 .card-subtitle {
   text-align: center;
   color: #6E6E6E;
+  font-size: 20px;
 }
 
 /* CREATO PER JOHN DOE */
@@ -241,7 +245,6 @@ footer {
   background-color: silver;
   border-radius: 50%;
   border: 1px solid black;
-
 }
 
 /* utility */
@@ -274,6 +277,10 @@ footer {
 .text-gray {
   color: #6E6E6E;
   font-size: 20px;
+}
+
+.bold {
+  font-weight: bolder;
 }
 
 
