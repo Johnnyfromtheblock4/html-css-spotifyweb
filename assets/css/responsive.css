@@ -1,5 +1,5 @@
 /* SPOTIFY-MD */
-@media screen and (max-width: 878px) {
+@media screen and (max-width: 768px) {
 
   /* sidebar */
   #sidebar {
@@ -158,4 +158,94 @@
   .pr-bar {
     width: 20%;
   }
+}
+
+/* SPOTIFY-S */
+@media screen and (max-width: 580px) {
+  /* sidebar */
+  #sidebar {
+    width: 40%;
+  }
+
+  /* header */
+  #content {
+    width: calc(100vw - 40%);
+  }
+
+    /* top-menu */
+  .container-recently {
+    max-width: 90%;
+  }
+
+  .col-18 {
+    width: calc(100% / 3 - 5px);
+    padding-bottom: 20px;
+  }
+
+  .top-menu {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .green-line::after {
+    margin-left: 40px;
+  }
+
+
+  /* recently played, creato per John Doe, artisti più popolari */
+
+  .recently-title {
+    font-size: 13px;
+  }
+
+  .recently-cards .col-18,
+  .created-cards .col-18,
+  .artist-cards .col-18 {
+    width: calc(100% / 2 - 5px);
+  }
+
+  .card-title {
+    font-size: 13px;
+  }
+
+  .card-subtitle {
+    font-size: 12px;
+  }
+
+  .text-gray {
+    font-size: 11px;
+  }
+
+  /* footer */
+  .player-left {
+    font-size: 10px;
+    width: calc(33% - 5px);
+  }
+
+  .song-name {
+    font-size: 10px;
+  }
+
+  .player-center {
+    font-size: 8px;
+    width: calc(33% - 5px);
+  }
+
+  .pc-icons {
+    font-size: 15px;
+  }
+
+  .pc-bar {
+    width: 40%;
+  }
+
+  .player-right {
+    font-size: 10px;
+    width: calc(33% - 5px);
+  }
+
+  .pr-bar {
+    width: 20%;
+  }
+
 }
