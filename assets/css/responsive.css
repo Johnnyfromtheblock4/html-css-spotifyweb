@@ -343,8 +343,12 @@
 
   .top-menu {
     font-size: 11px;
+  }
+
+  .container-recently{
     display: flex;
     justify-content: center;
+    text-align: center;
   }
 
   /* footer */
