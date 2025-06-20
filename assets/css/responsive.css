@@ -261,3 +261,15 @@
   }
 }
 
+/* SPOTIFY-XS */
+@media screen and (max-width: 490px) {
+ /* sidebar */
+  #sidebar {
+    width: 10%;
+  }
+
+  /* header */
+  #content {
+    width: calc(100vw - 10%);
+  }
+}

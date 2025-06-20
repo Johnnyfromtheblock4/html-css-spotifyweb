@@ -100,13 +100,13 @@ main {
 
 .crea-playlist {
   display: flex;
-  align-items: center; 
+  align-items: center;
   margin-bottom: 20px;
 }
 
 .crea-playlist i {
   font-size: 70px;
-  padding-right: 10px; 
+  padding-right: 10px;
 }
 
 /* sidebar-bottom */
@@ -568,4 +568,10 @@ main {
 
 .pr-icons i:hover {
   color: white;
+}
+
+/* SPOTIFY XS MODIFICHE  */
+
+.logo-xs {
+  display: none;
 }
