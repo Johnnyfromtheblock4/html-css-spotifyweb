@@ -343,9 +343,64 @@
 
   .top-menu {
     font-size: 11px;
+    display: flex;
     justify-content: center;
   }
 
-    /* footer */
+  /* footer */
+  .player-left {
+    font-size: 10px;
+    width: calc(25% - 5px);
+    padding-left: 10px;
+  }
 
+  .song-name {
+    font-size: 10px;
+  }
+
+  .player-center {
+    font-size: 8px;
+    width: calc(50% - 5px);
+    padding-top: 10px;
+  }
+
+  .pl-text {
+    padding-right: 10px;
+  }
+
+  .pc-icons {
+    font-size: 15px;
+    width: 100%;
+    text-align: center;
+    margin-left: 10px;
+  }
+
+  .pc-bar {
+    width: 120px;
+  }
+
+
+  .player-right {
+    font-size: 10px;
+    width: calc(25% - 5px);
+    padding: 0;
+  }
+
+  .pr-icons {
+    font-size: 10px;
+    width: 50%;
+  }
+
+  .pr-icons i {
+    padding-left: 0px;
+    padding-right: 2px;
+  }
+
+  .pr-bar {
+    width: 50%;
+  }
+
+  .size-40 {
+    font-size: 25px;
+  }
 }
