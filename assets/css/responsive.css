@@ -50,7 +50,7 @@
 
   /* header */
   #content {
-    width: calc(100vw - 20%);
+    width: calc(100vw - 25%);
   }
 
   .header {
@@ -69,13 +69,8 @@
     max-width: 90%;
   }
 
-  .col-18 {
-    width: calc(100% / 5 - 5px);
-  }
-
   .top-menu {
     font-size: 13px;
-    justify-content: center;
   }
 
   .green-line::after {
@@ -92,7 +87,6 @@
   .created-cards,
   .artist-title,
   .artist-cards {
-    padding-left: 15px;
     margin-top: 20px;
     margin-bottom: 20px;
   }
@@ -180,17 +174,11 @@
 
   /* top-menu */
   .container-recently {
-    max-width: 90%;
-  }
-
-  .col-18 {
-    width: calc(100% / 3 - 5px);
-    padding-bottom: 20px;
+    max-width: 100%;
   }
 
   .top-menu {
     font-size: 11px;
-    text-align: center;
   }
 
   .green-line::after {
@@ -269,6 +257,7 @@
   #sidebar {
     width: 10%;
     color: white;
+  
   }
 
   .logo {
@@ -336,18 +325,8 @@
 
   /* top-menu */
 
-  .col-18 {
-    width: calc(100% / 4 - 5px);
-    padding-bottom: 20px;
-  }
-
   .top-menu {
-    font-size: 11px;
-  }
-
-  .container-recently {
-    display: flex;
-    justify-content: center;
+    font-size: 10px;
   }
 
   /* footer */
@@ -381,8 +360,6 @@
   .pc-bar {
     width: 120px;
   }
-
-
   .player-right {
     font-size: 10px;
     width: calc(25% - 5px);

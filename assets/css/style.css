@@ -50,10 +50,12 @@ main {
 
 .col-18 {
   width: calc(100% / 6 - 5px);
+  padding-left: 15px;
 }
 
 .col-100 {
   width: 100%;
+  padding-left: 15px;
 }
 
 /* SIDEBAR */
@@ -162,6 +164,11 @@ main {
   font-size: 20px;
 }
 
+.sezione {
+  text-align: center;
+  margin: 0 auto;
+}
+
 .green-line::after {
   content: "";
   display: block;
@@ -172,13 +179,14 @@ main {
 }
 
 .container-recently {
-  max-width: 1200px;
+  max-width: 50%;
   margin: 0 auto;
   margin-top: 20px;
 }
 
 .recently-title {
   margin-top: 30px;
+  padding-left: 15px;
 }
 
 .recently-title p {
@@ -189,6 +197,7 @@ main {
 .recently-cards {
   margin-top: 30px;
   margin-right: 10px;
+  padding-left: 15px;
 }
 
 .col-18 img {
